@@ -10,6 +10,7 @@ This document outlines the complete set of user stories that were implemented to
 |                             | As a developer, I want to configure a Python virtual environment, so that I can manage project dependencies in isolation.                             | ✅ Done     |
 |                             | As a developer, I want to install all required dependencies from `requirements.txt`, so that the app runs with all needed packages.                   | ✅ Done     |
 |                             | As a developer, I want to run a basic test LLM prompt, so that I can verify that the Ollama and model integration works.                              | ✅ Done     |
+|                             | As a developer, I want to integrate LangChain into the project, so that I can use structured output parsing and prompt templates easily.              | 🕒 Planned |
 | Recipe Generator            | As a user, I want to input a list of ingredients, so that I can receive a simple and healthy recipe suggestion.                                       | ✅ Done     |
 |                             | As a user, I want the recipe output to be clean and free of conversational filler, so that it's easy to read and follow.                              | ✅ Done     |
 | Profile Setup               | As a user, I want to enter my profile details (name, age, gender, height, weight, activity level, etc.), so that the meal plan can be tailored to me. | ✅ Done     |
@@ -25,3 +26,5 @@ This document outlines the complete set of user stories that were implemented to
 | PDF Export                  | As a user, I want to export my recipe as a PDF, so that I can print or save it for offline access.                                                    | 🕒 Planned |
 |                             | As a user, I want to see a grocery list in the PDF that separates what I have from what I need, so that I can shop efficiently.                       | 🕒 Planned |
 | Automated Daily Meal Plans  | As a user, I want the app to automatically generate and send my meal plan daily (via email), so that I never miss my nutrition routine.               | 🕒 Planned |
+| LangChain Integration       | As a developer, I want to use PromptTemplate and LLMChain with Ollama, so that prompt creation and chaining becomes easier.                           | 🕒 Planned |
+|                             | As a developer, I want to define structured output using Pydantic models and parse responses, so that I can reliably extract recipe and meal data.    | 🕒 Planned |
