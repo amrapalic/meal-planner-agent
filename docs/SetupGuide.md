@@ -1,10 +1,10 @@
-**🛠️ Developer Setup Guide – AI Meal Planner App**
+# 🛠️ Developer Setup Guide – AI Meal Planner App
 
 Welcome to the AI Meal Planner – an intelligent meal planning assistant built using Python, Streamlit, and a locally running LLM via Ollama (LLaMA2). This guide will walk you through setting up the project on your local machine for development or experimentation.
 
 ---
 
-**📁 Project Overview**
+## 📁 Project Overview
 
 This app includes three core features:
 
@@ -16,7 +16,7 @@ This app includes three core features:
 
 ---
 
-**🧩 Prerequisites**
+## 🧩 Prerequisites
 
 Before starting, make sure you have the following installed:
 
@@ -28,16 +28,16 @@ Before starting, make sure you have the following installed:
 
 ---
 
-**✅ Setup Instructions**
+## ✅ Setup Instructions
 
-**1. Clone the Repository**
+## 1. Clone the Repository
 
 ```bash
 git clone https://github.com/<your-username>/<repo-name>.git
 cd <repo-name>
 ```
 
-**2. Set Up a Virtual Environment**
+## 2. Set Up a Virtual Environment
 
 To keep dependencies clean and isolated:
 
@@ -55,7 +55,7 @@ python -m venv .venv
 .venv\Scripts\activate
 ```
 
-**3. Install Required Python Packages**
+## 3. Install Required Python Packages
 
 All dependencies are listed in `requirements.txt`. Just run:
 
@@ -70,7 +70,7 @@ This includes:
 * pydantic (if you begin LangChain integration later)
 * and any other dependencies used in the app
 
-**4. Install & Run Ollama (for LLM Access)**
+## 4. Install & Run Ollama (for LLM Access)
 
 This app uses Ollama to access LLaMA2 locally.
 
@@ -88,7 +88,7 @@ ollama pull llama2
 
 🔁 You can change to a different model later if needed by editing the model name in `ollama_client.py`.
 
-**5. Run the Application**
+## 5. Run the Application
 
 Once everything is installed and Ollama is running:
 
